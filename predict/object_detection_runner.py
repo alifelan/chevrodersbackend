@@ -20,7 +20,7 @@ from predict.utils import label_map_util
 from multiprocessing.dummy import Pool as ThreadPool
 
 MAX_NUMBER_OF_BOXES = 10
-MINIMUM_CONFIDENCE = 0.3
+MINIMUM_CONFIDENCE = 0.9
 
 PATH_TO_LABELS = 'predict/annotations/label_map.pbtxt'
 PATH_TO_TEST_IMAGES_DIR = 'predict/test_images'
