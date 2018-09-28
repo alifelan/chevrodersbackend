@@ -125,12 +125,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-<<<<<<< HEAD
 
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
 django_heroku.settings(locals())
 
-=======
->>>>>>> 89cc28bedacc2652abd4a0a8b3925c767a45765a
 DATA_UPLOAD_MAX_MEMORY_SIZE=5242880
